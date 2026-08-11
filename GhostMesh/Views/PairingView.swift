@@ -119,10 +119,11 @@ final class ScannerViewController: UIViewController, AVCaptureMetadataOutputObje
         DispatchQueue.global(qos: .userInitiated).async { [session] in session.startRunning() }
     }
 
-    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-        guard let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject,
-              let value = object.stringValue else { return }
-        session.stopRunning()
-        onCode?(value)
+    nonisolated func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+    guard let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject,
+          let value = object.stringValue else { return }
+    Task { @MainActor in
+        self.session.stopRunning()
+        self.onCode?(value)
     }
 }
