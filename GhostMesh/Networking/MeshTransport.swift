@@ -74,7 +74,7 @@ final class MeshTransport: NSObject, ObservableObject {
     /// by the display-name prefix we use, the contact's fingerprint
     /// prefix) — never flooded/relayed, and best-effort/unreliable since a
     /// dropped audio frame should be skipped, not retried.
-    func sendCallFrame(_ frame callFrame: CallFrame, toPeerDisplayName name: String) {
+        func sendCallFrame(_ callFrame: CallFrame, toPeerDisplayName name: String) {
         guard let peer = session.connectedPeers.first(where: { $0.displayName == name }) else { return }
         guard let payload = try? JSONEncoder().encode(callFrame) else { return }
         try? session.send(frame(.callFrame, payload), toPeers: [peer], with: .unreliable)
