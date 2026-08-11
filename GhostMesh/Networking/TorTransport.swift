@@ -54,7 +54,7 @@ actor TorTransport {
         self.client = client
 
         let endpoint = await client.socksEndpoint
-        self.socksPort = endpoint.port
+        self.socksPort = UInt16(endpoint.port ?? 0)
     }
 
     /// Publishes an ephemeral v3 onion service that forwards to a local TCP
@@ -67,9 +67,9 @@ actor TorTransport {
         localInboxPort = UInt16.random(in: 40000...60000)
 
         let key: OnionServiceKey = existingPrivateKey.map { .providedV3($0) } ?? .newV3(discardPrivateKey: false)
-        let service = try await client.control.addOnion(
-            key: key,
-            ports: [.toLocalPort(8443, localPort: localInboxPort)]
+        let service = try await client.control().addOnion(
+           key: key,
+           ports: [.toLocalPort(8443, localPort: Int(localInboxPort))]
         )
         onionAddress = service.onionAddress
         startInboxListener(on: localInboxPort)
