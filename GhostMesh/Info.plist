@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>GhostMesh uses the local network to relay encrypted messages directly between nearby devices, without the internet.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_ghostmesh-p2p._tcp</string>
+		<string>_ghostmesh-p2p._udp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>GhostMesh uses the camera to scan a contact's pairing QR code.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>GhostMesh uses the microphone for end-to-end encrypted voice calls.</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>audio</string>
+		<string>voip</string>
+	</array>
+</dict>
+</plist>
