@@ -37,21 +37,13 @@ actor TorTransport {
     }
 
     func start() async throws {
-        let dataDir = FileManager.default.temporaryDirectory
-            .appendingPathComponent("tor-data-\(UUID().uuidString)").path
-        let cacheDir = FileManager.default.temporaryDirectory
-            .appendingPathComponent("ghostmesh-tor-cache").path
-        // Tor's own startup code expects both directories to already exist
-        // and aborts (rather than throwing) if they don't — create both,
-        // not just the cache directory.
-        try FileManager.default.createDirectory(atPath: dataDir, withIntermediateDirectories: true)
-        try FileManager.default.createDirectory(atPath: cacheDir, withIntermediateDirectories: true)
-
-        let config = TorConfiguration(
-            dataDirectory: dataDir,
-            cacheDirectory: cacheDir,
-            socksPort: .ephemeral
-        )
+        // Switched to the library's own tested default configuration
+        // rather than hand-rolled dataDirectory/cacheDirectory paths — two
+        // real device builds crashed identically inside Tor's own startup
+        // thread with a custom config, and the library's own README leads
+        // with .makeDefault() as the primary quick-start path, so it's the
+        // best-evidenced option rather than another guess at path setup.
+        let config = TorConfiguration.makeDefault()
         let client = TorClient(configuration: config)
         try await client.start()
         try await client.waitUntilBootstrapped()
