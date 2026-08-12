@@ -41,7 +41,11 @@ actor TorTransport {
             .appendingPathComponent("tor-data-\(UUID().uuidString)").path
         let cacheDir = FileManager.default.temporaryDirectory
             .appendingPathComponent("ghostmesh-tor-cache").path
-        try? FileManager.default.createDirectory(atPath: cacheDir, withIntermediateDirectories: true)
+        // Tor's own startup code expects both directories to already exist
+        // and aborts (rather than throwing) if they don't — create both,
+        // not just the cache directory.
+        try FileManager.default.createDirectory(atPath: dataDir, withIntermediateDirectories: true)
+        try FileManager.default.createDirectory(atPath: cacheDir, withIntermediateDirectories: true)
 
         let config = TorConfiguration(
             dataDirectory: dataDir,
