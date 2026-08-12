@@ -7,171 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		356D4E704D8848A5A4B67E5F /* DoubleRatchet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76463A76424040178E6DEEA5 /* DoubleRatchet.swift */; };
-		EE83412E72204AC28D9026F4 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2306E359B344AAA7201260 /* Identity.swift */; };
-		8D43F4FF022D4FEBAD3DDED5 /* X3DH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C07C18CC614A848D5CC98B /* X3DH.swift */; };
-		27B0BE5E8A9B4B0F94FCA14D /* RatchetPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF0B92539448C3BA51E42E /* RatchetPrimitives.swift */; };
-		FB976F4B7DF44B88A8336050 /* CallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A8ED0D9B1D4412BA146E77 /* CallSession.swift */; };
-		9721B3D6A44646319EA4D5D9 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA1DDDC58664AD29CEECAE8 /* ChatMessage.swift */; };
-		80375A378DC4482796766836 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C0B28C52B41D4897F5562 /* Contact.swift */; };
-		C492A63727634F328222F0E9 /* CallModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BDA55457F348A28532348B /* CallModels.swift */; };
-		FABB8FA8E1EF4102B3FE31FB /* MeshTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AEA5FD3D54B02BC43662A /* MeshTransport.swift */; };
-		D53F93B32FE7488CB2B1E953 /* MessageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C962DCB9C444E1B03D1872 /* MessageRouter.swift */; };
-		EE8791E961F6452DAA2ADEDE /* SOCKS5Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3C94BD5974E0490E0DF70 /* SOCKS5Client.swift */; };
-		5BB4A36341EA4462AC74E077 /* TorTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B9E8B217C44498B7FE3EF /* TorTransport.swift */; };
-		58E81D5C537A49509EF5F7CC /* CallAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC12AB461C7462CB628A5C1 /* CallAudioEngine.swift */; };
-		2A0C6EC47612457C93E612CA /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FC4D1509D45768B4AB982 /* AppViewModel.swift */; };
-		D30D675149C64B03B5336AFE /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39D41323FA244438C89B01E /* CallViewModel.swift */; };
-		4F56929A0F2349FC9E1885E8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B11C87A654770A01E464F /* ChatView.swift */; };
-		FD898C48D38F4E2AA82840D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9F06B4B6C4A308D5AB6B3 /* ContentView.swift */; };
-		D9BBD4E6AFB343C3AF43113B /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AD9E1930D94F6BB6AFF9F7 /* PairingView.swift */; };
-		E99E784A774943C7A3B965F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABAB5D8CE348E9903E7BC6 /* SettingsView.swift */; };
-		D0BEA6275CA74962BC2610AD /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BC289EF4EC4E6496DBA906 /* CallView.swift */; };
-		7D0499CF9C4B4BA4A8101473 /* GhostMeshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F772F1F6B47EEB7121464 /* GhostMeshApp.swift */; };
-		75813744058D49FE8B6B621E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673F42F6D6F54F35861AEBFC /* Assets.xcassets */; };
-		A04FA03E90F64F29808C6ADD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8FFCE06624481D84B7AEE8 /* Preview Assets.xcassets */; };
-		A3E0E55B699C4F06AC13418F /* Tor in Frameworks */ = {isa = PBXBuildFile; productRef = 3D92C0FAC1D94187B4466D05 /* Tor */; };
+		FC7B35D7A68D4F2F8196CAA8 /* DoubleRatchet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710634C185C84C5396491315 /* DoubleRatchet.swift */; };
+		1261EC62DCCA4E1391A76531 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BB78915F4451EA06412B4 /* Identity.swift */; };
+		F708D39F5FE94E6FBB2841A4 /* X3DH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926C103F4DE64A3BA5045084 /* X3DH.swift */; };
+		AB2DA2A0758B4C9580617A86 /* RatchetPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F9355F1514E61BF14E9E2 /* RatchetPrimitives.swift */; };
+		465ABF2B32F9418A8AC3C568 /* CallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5977F4A6F1C54C4183B65595 /* CallSession.swift */; };
+		5CAEDED9028444938E8E6985 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264D9E26E9D54A3AA50942DC /* ChatMessage.swift */; };
+		B45ED85AEBE349D69EF569E5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847CEC31BEA4B50A746B8BB /* Contact.swift */; };
+		EBABF48794D24D6697799A60 /* CallModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AE3973E634DD38E35DF2C /* CallModels.swift */; };
+		CF3BA7581E5C435E99CA2C4F /* MeshTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A23EBBA4244E9A463524B /* MeshTransport.swift */; };
+		056EF11CE5284A028C30F6D3 /* MessageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE075A3C735A41ED9E50FAD1 /* MessageRouter.swift */; };
+		A978B934C19A418C9307D573 /* SOCKS5Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058430BC94814495B04BB544 /* SOCKS5Client.swift */; };
+		56D814C71F84479F9F63B304 /* TorTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D72721D203149D2BA4DBCC7 /* TorTransport.swift */; };
+		080FB9B9EACB468686D82D28 /* CallAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B456F7D0B443CDAF1E777A /* CallAudioEngine.swift */; };
+		3D7C8B445B1A4A3581821EC5 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA43AD4DD74F379974B674 /* AppViewModel.swift */; };
+		8E4C963337A54C519E042879 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EF06AFD8234176B8317D6D /* CallViewModel.swift */; };
+		8D0E297129074366A3036091 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4154A9F5C24B495AA3D4D731 /* ChatView.swift */; };
+		6D25F3B1A99D4EB383D14BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E3A0F733540F1AA0A7E51 /* ContentView.swift */; };
+		C523CEAD64F84691B0B5F7D7 /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49603022C84114B14F5EF9 /* PairingView.swift */; };
+		423331F20B8F45F9A37A4C56 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28982196091A4985B50B04F7 /* SettingsView.swift */; };
+		0B107A528CFE492C844CE256 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C3FE6D5FE40148A5FE600 /* CallView.swift */; };
+		C4DC913C7EF34C16AB00C693 /* GhostMeshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6753F1994F4C4CB4B53455 /* GhostMeshApp.swift */; };
+		C034F09538C24C5BADDA978D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD624FEEB259473B845E3298 /* Assets.xcassets */; };
+		ED1F1E65418045A19B3B5D52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C224560850412E9F4CB493 /* Preview Assets.xcassets */; };
+		09A97344E22144FDB7410713 /* Tor in Frameworks */ = {isa = PBXBuildFile; productRef = 463EECD4A3F7426FB4BF4D4B /* Tor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D32B96C13E24254AC1B97CE /* GhostMesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostMesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		76463A76424040178E6DEEA5 /* DoubleRatchet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRatchet.swift; sourceTree = "<group>"; };
-		3F2306E359B344AAA7201260 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
-		71C07C18CC614A848D5CC98B /* X3DH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X3DH.swift; sourceTree = "<group>"; };
-		79BF0B92539448C3BA51E42E /* RatchetPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatchetPrimitives.swift; sourceTree = "<group>"; };
-		97A8ED0D9B1D4412BA146E77 /* CallSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSession.swift; sourceTree = "<group>"; };
-		2CA1DDDC58664AD29CEECAE8 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
-		947C0B28C52B41D4897F5562 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		51BDA55457F348A28532348B /* CallModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModels.swift; sourceTree = "<group>"; };
-		593AEA5FD3D54B02BC43662A /* MeshTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshTransport.swift; sourceTree = "<group>"; };
-		39C962DCB9C444E1B03D1872 /* MessageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRouter.swift; sourceTree = "<group>"; };
-		C6D3C94BD5974E0490E0DF70 /* SOCKS5Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCKS5Client.swift; sourceTree = "<group>"; };
-		226B9E8B217C44498B7FE3EF /* TorTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorTransport.swift; sourceTree = "<group>"; };
-		3DC12AB461C7462CB628A5C1 /* CallAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAudioEngine.swift; sourceTree = "<group>"; };
-		4E8FC4D1509D45768B4AB982 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
-		D39D41323FA244438C89B01E /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
-		651B11C87A654770A01E464F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		91D9F06B4B6C4A308D5AB6B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		64AD9E1930D94F6BB6AFF9F7 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
-		8FABAB5D8CE348E9903E7BC6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		17BC289EF4EC4E6496DBA906 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
-		542F772F1F6B47EEB7121464 /* GhostMeshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostMeshApp.swift; sourceTree = "<group>"; };
-		673F42F6D6F54F35861AEBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F8FFCE06624481D84B7AEE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB148B2640CF4CF18F9614E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E6AB41A5394AB8B3DB09FF /* GhostMesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostMesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710634C185C84C5396491315 /* DoubleRatchet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRatchet.swift; sourceTree = "<group>"; };
+		E24BB78915F4451EA06412B4 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		926C103F4DE64A3BA5045084 /* X3DH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X3DH.swift; sourceTree = "<group>"; };
+		582F9355F1514E61BF14E9E2 /* RatchetPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatchetPrimitives.swift; sourceTree = "<group>"; };
+		5977F4A6F1C54C4183B65595 /* CallSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSession.swift; sourceTree = "<group>"; };
+		264D9E26E9D54A3AA50942DC /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		9847CEC31BEA4B50A746B8BB /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		810AE3973E634DD38E35DF2C /* CallModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModels.swift; sourceTree = "<group>"; };
+		DA8A23EBBA4244E9A463524B /* MeshTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshTransport.swift; sourceTree = "<group>"; };
+		BE075A3C735A41ED9E50FAD1 /* MessageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRouter.swift; sourceTree = "<group>"; };
+		058430BC94814495B04BB544 /* SOCKS5Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCKS5Client.swift; sourceTree = "<group>"; };
+		4D72721D203149D2BA4DBCC7 /* TorTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorTransport.swift; sourceTree = "<group>"; };
+		45B456F7D0B443CDAF1E777A /* CallAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAudioEngine.swift; sourceTree = "<group>"; };
+		9CEA43AD4DD74F379974B674 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		68EF06AFD8234176B8317D6D /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+		4154A9F5C24B495AA3D4D731 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		155E3A0F733540F1AA0A7E51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C49603022C84114B14F5EF9 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		28982196091A4985B50B04F7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D43C3FE6D5FE40148A5FE600 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		4B6753F1994F4C4CB4B53455 /* GhostMeshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostMeshApp.swift; sourceTree = "<group>"; };
+		FD624FEEB259473B845E3298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C224560850412E9F4CB493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8550500705BE401D865961D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A587D548FC140DB8F6F702C /* Frameworks */ = {
+		1400B5843C7345E1B4A72AB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E0E55B699C4F06AC13418F /* Tor in Frameworks */,
+				09A97344E22144FDB7410713 /* Tor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B05DD1A26F1B47B1B33ADBDB = {
+		63832E373B354985A34567CB = {
 			isa = PBXGroup;
 			children = (
-				7651BF7F1EAA4E48AAC2B559 /* GhostMesh */,
-				2B19347BCDF349668165914F /* Products */,
+				4C2A566FC3BE4F1AA89959D4 /* GhostMesh */,
+				2842B201559E45559A0DA39A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B19347BCDF349668165914F /* Products */ = {
+		2842B201559E45559A0DA39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D32B96C13E24254AC1B97CE /* GhostMesh.app */,
+				71E6AB41A5394AB8B3DB09FF /* GhostMesh.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7651BF7F1EAA4E48AAC2B559 /* GhostMesh */ = {
+		4C2A566FC3BE4F1AA89959D4 /* GhostMesh */ = {
 			isa = PBXGroup;
 			children = (
-				542F772F1F6B47EEB7121464 /* GhostMeshApp.swift */,
-				7601C827A06B48C39DAC04C7 /* Crypto */,
-				8A834C8C280C43D2BDC0BB20 /* Models */,
-				68C6F93FD1E54ECEAF674A05 /* Networking */,
-				0E03271AA06C4F5196469476 /* Audio */,
-				F5DB137DBEF14AC791747682 /* ViewModel */,
-				7C06AE38712D43E689040D94 /* Views */,
-				673F42F6D6F54F35861AEBFC /* Assets.xcassets */,
-				FB148B2640CF4CF18F9614E1 /* Info.plist */,
-				A34E85327FF344F39A7D8047 /* Preview Content */,
+				4B6753F1994F4C4CB4B53455 /* GhostMeshApp.swift */,
+				88703F48636A4249AE2B2DFC /* Crypto */,
+				58C78FAE1AD54BA4AD14A1DF /* Models */,
+				EE5ADCCC832C42DDB2FE9EC5 /* Networking */,
+				0BC79D0317354F729FDAE323 /* Audio */,
+				BC5229A30F7E430A918D9E1D /* ViewModel */,
+				50EAF7FCBEAE4758909EA258 /* Views */,
+				FD624FEEB259473B845E3298 /* Assets.xcassets */,
+				8550500705BE401D865961D5 /* Info.plist */,
+				6C350EC5C6D3485F98266B23 /* Preview Content */,
 			);
 			path = GhostMesh;
 			sourceTree = "<group>";
 		};
-		7601C827A06B48C39DAC04C7 /* Crypto */ = {
+		88703F48636A4249AE2B2DFC /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				76463A76424040178E6DEEA5 /* DoubleRatchet.swift */,
-				3F2306E359B344AAA7201260 /* Identity.swift */,
-				71C07C18CC614A848D5CC98B /* X3DH.swift */,
-				79BF0B92539448C3BA51E42E /* RatchetPrimitives.swift */,
-				97A8ED0D9B1D4412BA146E77 /* CallSession.swift */,
+				710634C185C84C5396491315 /* DoubleRatchet.swift */,
+				E24BB78915F4451EA06412B4 /* Identity.swift */,
+				926C103F4DE64A3BA5045084 /* X3DH.swift */,
+				582F9355F1514E61BF14E9E2 /* RatchetPrimitives.swift */,
+				5977F4A6F1C54C4183B65595 /* CallSession.swift */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
 		};
-		8A834C8C280C43D2BDC0BB20 /* Models */ = {
+		58C78FAE1AD54BA4AD14A1DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2CA1DDDC58664AD29CEECAE8 /* ChatMessage.swift */,
-				947C0B28C52B41D4897F5562 /* Contact.swift */,
-				51BDA55457F348A28532348B /* CallModels.swift */,
+				264D9E26E9D54A3AA50942DC /* ChatMessage.swift */,
+				9847CEC31BEA4B50A746B8BB /* Contact.swift */,
+				810AE3973E634DD38E35DF2C /* CallModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		68C6F93FD1E54ECEAF674A05 /* Networking */ = {
+		EE5ADCCC832C42DDB2FE9EC5 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				593AEA5FD3D54B02BC43662A /* MeshTransport.swift */,
-				39C962DCB9C444E1B03D1872 /* MessageRouter.swift */,
-				C6D3C94BD5974E0490E0DF70 /* SOCKS5Client.swift */,
-				226B9E8B217C44498B7FE3EF /* TorTransport.swift */,
+				DA8A23EBBA4244E9A463524B /* MeshTransport.swift */,
+				BE075A3C735A41ED9E50FAD1 /* MessageRouter.swift */,
+				058430BC94814495B04BB544 /* SOCKS5Client.swift */,
+				4D72721D203149D2BA4DBCC7 /* TorTransport.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		0E03271AA06C4F5196469476 /* Audio */ = {
+		0BC79D0317354F729FDAE323 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				3DC12AB461C7462CB628A5C1 /* CallAudioEngine.swift */,
+				45B456F7D0B443CDAF1E777A /* CallAudioEngine.swift */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
 		};
-		F5DB137DBEF14AC791747682 /* ViewModel */ = {
+		BC5229A30F7E430A918D9E1D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4E8FC4D1509D45768B4AB982 /* AppViewModel.swift */,
-				D39D41323FA244438C89B01E /* CallViewModel.swift */,
+				9CEA43AD4DD74F379974B674 /* AppViewModel.swift */,
+				68EF06AFD8234176B8317D6D /* CallViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		7C06AE38712D43E689040D94 /* Views */ = {
+		50EAF7FCBEAE4758909EA258 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				651B11C87A654770A01E464F /* ChatView.swift */,
-				91D9F06B4B6C4A308D5AB6B3 /* ContentView.swift */,
-				64AD9E1930D94F6BB6AFF9F7 /* PairingView.swift */,
-				8FABAB5D8CE348E9903E7BC6 /* SettingsView.swift */,
-				17BC289EF4EC4E6496DBA906 /* CallView.swift */,
+				4154A9F5C24B495AA3D4D731 /* ChatView.swift */,
+				155E3A0F733540F1AA0A7E51 /* ContentView.swift */,
+				1C49603022C84114B14F5EF9 /* PairingView.swift */,
+				28982196091A4985B50B04F7 /* SettingsView.swift */,
+				D43C3FE6D5FE40148A5FE600 /* CallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A34E85327FF344F39A7D8047 /* Preview Content */ = {
+		6C350EC5C6D3485F98266B23 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9F8FFCE06624481D84B7AEE8 /* Preview Assets.xcassets */,
+				96C224560850412E9F4CB493 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -179,13 +179,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB6B078A8B574FD794020FFF /* GhostMesh */ = {
+		3BAB7228C56D40929371DF80 /* GhostMesh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E592E8B4F2C40F0A3158539 /* Build configuration list for PBXNativeTarget "GhostMesh" */;
+			buildConfigurationList = AD64495107A04B1F9FB196BD /* Build configuration list for PBXNativeTarget "GhostMesh" */;
 			buildPhases = (
-				4681ABAEA8AB464CBFBB464E /* Sources */,
-				0A587D548FC140DB8F6F702C /* Frameworks */,
-				FC026A64CD2B4EF0A50F6685 /* Resources */,
+				C8DE8799984E4B649FEBDDFF /* Sources */,
+				1400B5843C7345E1B4A72AB7 /* Frameworks */,
+				BB9F4A6C05A04AC0A197A05B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -193,28 +193,28 @@
 			);
 			name = GhostMesh;
 			packageProductDependencies = (
-				3D92C0FAC1D94187B4466D05 /* Tor */,
+				463EECD4A3F7426FB4BF4D4B /* Tor */,
 			);
 			productName = GhostMesh;
-			productReference = 4D32B96C13E24254AC1B97CE /* GhostMesh.app */;
+			productReference = 71E6AB41A5394AB8B3DB09FF /* GhostMesh.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C48789F82E514DFF9F177810 /* Project object */ = {
+		0B0691B564A547CCB30FFBBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					CB6B078A8B574FD794020FFF = {
+					3BAB7228C56D40929371DF80 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = C23F1A58B355459B92FB3F5D /* Build configuration list for PBXProject "GhostMesh" */;
+			buildConfigurationList = 1BA76DC46E6541A38549A133 /* Build configuration list for PBXProject "GhostMesh" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,64 +222,64 @@
 				en,
 				Base,
 			);
-			mainGroup = B05DD1A26F1B47B1B33ADBDB;
+			mainGroup = 63832E373B354985A34567CB;
 			packageReferences = (
-				B724B96C2166476FBF446483 /* XCRemoteSwiftPackageReference "swift-tor" */,
+				D9F4134956144D71BBF30FE0 /* XCRemoteSwiftPackageReference "swift-tor" */,
 			);
-			productRefGroup = 2B19347BCDF349668165914F /* Products */;
+			productRefGroup = 2842B201559E45559A0DA39A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB6B078A8B574FD794020FFF /* GhostMesh */,
+				3BAB7228C56D40929371DF80 /* GhostMesh */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC026A64CD2B4EF0A50F6685 /* Resources */ = {
+		BB9F4A6C05A04AC0A197A05B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75813744058D49FE8B6B621E /* Assets.xcassets in Resources */,
-				A04FA03E90F64F29808C6ADD /* Preview Assets.xcassets in Resources */,
+				C034F09538C24C5BADDA978D /* Assets.xcassets in Resources */,
+				ED1F1E65418045A19B3B5D52 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4681ABAEA8AB464CBFBB464E /* Sources */ = {
+		C8DE8799984E4B649FEBDDFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356D4E704D8848A5A4B67E5F /* DoubleRatchet.swift in Sources */,
-				EE83412E72204AC28D9026F4 /* Identity.swift in Sources */,
-				8D43F4FF022D4FEBAD3DDED5 /* X3DH.swift in Sources */,
-				27B0BE5E8A9B4B0F94FCA14D /* RatchetPrimitives.swift in Sources */,
-				FB976F4B7DF44B88A8336050 /* CallSession.swift in Sources */,
-				9721B3D6A44646319EA4D5D9 /* ChatMessage.swift in Sources */,
-				80375A378DC4482796766836 /* Contact.swift in Sources */,
-				C492A63727634F328222F0E9 /* CallModels.swift in Sources */,
-				FABB8FA8E1EF4102B3FE31FB /* MeshTransport.swift in Sources */,
-				D53F93B32FE7488CB2B1E953 /* MessageRouter.swift in Sources */,
-				EE8791E961F6452DAA2ADEDE /* SOCKS5Client.swift in Sources */,
-				5BB4A36341EA4462AC74E077 /* TorTransport.swift in Sources */,
-				58E81D5C537A49509EF5F7CC /* CallAudioEngine.swift in Sources */,
-				2A0C6EC47612457C93E612CA /* AppViewModel.swift in Sources */,
-				D30D675149C64B03B5336AFE /* CallViewModel.swift in Sources */,
-				4F56929A0F2349FC9E1885E8 /* ChatView.swift in Sources */,
-				FD898C48D38F4E2AA82840D8 /* ContentView.swift in Sources */,
-				D9BBD4E6AFB343C3AF43113B /* PairingView.swift in Sources */,
-				E99E784A774943C7A3B965F7 /* SettingsView.swift in Sources */,
-				D0BEA6275CA74962BC2610AD /* CallView.swift in Sources */,
-				7D0499CF9C4B4BA4A8101473 /* GhostMeshApp.swift in Sources */,
+				FC7B35D7A68D4F2F8196CAA8 /* DoubleRatchet.swift in Sources */,
+				1261EC62DCCA4E1391A76531 /* Identity.swift in Sources */,
+				F708D39F5FE94E6FBB2841A4 /* X3DH.swift in Sources */,
+				AB2DA2A0758B4C9580617A86 /* RatchetPrimitives.swift in Sources */,
+				465ABF2B32F9418A8AC3C568 /* CallSession.swift in Sources */,
+				5CAEDED9028444938E8E6985 /* ChatMessage.swift in Sources */,
+				B45ED85AEBE349D69EF569E5 /* Contact.swift in Sources */,
+				EBABF48794D24D6697799A60 /* CallModels.swift in Sources */,
+				CF3BA7581E5C435E99CA2C4F /* MeshTransport.swift in Sources */,
+				056EF11CE5284A028C30F6D3 /* MessageRouter.swift in Sources */,
+				A978B934C19A418C9307D573 /* SOCKS5Client.swift in Sources */,
+				56D814C71F84479F9F63B304 /* TorTransport.swift in Sources */,
+				080FB9B9EACB468686D82D28 /* CallAudioEngine.swift in Sources */,
+				3D7C8B445B1A4A3581821EC5 /* AppViewModel.swift in Sources */,
+				8E4C963337A54C519E042879 /* CallViewModel.swift in Sources */,
+				8D0E297129074366A3036091 /* ChatView.swift in Sources */,
+				6D25F3B1A99D4EB383D14BA0 /* ContentView.swift in Sources */,
+				C523CEAD64F84691B0B5F7D7 /* PairingView.swift in Sources */,
+				423331F20B8F45F9A37A4C56 /* SettingsView.swift in Sources */,
+				0B107A528CFE492C844CE256 /* CallView.swift in Sources */,
+				C4DC913C7EF34C16AB00C693 /* GhostMeshApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		484CA741A2F94C07B132BFEE /* Debug */ = {
+		D09289B87E3B44DBBCA259E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,11 +336,11 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		55F11830E77C44248132314E /* Release */ = {
+		14EBE52E9FA44D989AFF75F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,12 +390,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D6C58764C96341E9BABF7BF8 /* Debug */ = {
+		3B46B53DA2BC4DEA9F65C396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,12 +417,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lbl215.ghostmesh;
 				PRODUCT_NAME = GhostMesh;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		95537F617866408287E067B1 /* Release */ = {
+		ED5EC3E9D23E45A7BA62ACA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lbl215.ghostmesh;
 				PRODUCT_NAME = GhostMesh;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -452,20 +452,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C23F1A58B355459B92FB3F5D /* Build configuration list for PBXProject "GhostMesh" */ = {
+		1BA76DC46E6541A38549A133 /* Build configuration list for PBXProject "GhostMesh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				484CA741A2F94C07B132BFEE /* Debug */,
-				55F11830E77C44248132314E /* Release */,
+				D09289B87E3B44DBBCA259E3 /* Debug */,
+				14EBE52E9FA44D989AFF75F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E592E8B4F2C40F0A3158539 /* Build configuration list for PBXNativeTarget "GhostMesh" */ = {
+		AD64495107A04B1F9FB196BD /* Build configuration list for PBXNativeTarget "GhostMesh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6C58764C96341E9BABF7BF8 /* Debug */,
-				95537F617866408287E067B1 /* Release */,
+				3B46B53DA2BC4DEA9F65C396 /* Debug */,
+				ED5EC3E9D23E45A7BA62ACA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -473,7 +473,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B724B96C2166476FBF446483 /* XCRemoteSwiftPackageReference "swift-tor" */ = {
+		D9F4134956144D71BBF30FE0 /* XCRemoteSwiftPackageReference "swift-tor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/21-DOT-DEV/swift-tor";
 			requirement = {
@@ -484,12 +484,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3D92C0FAC1D94187B4466D05 /* Tor */ = {
+		463EECD4A3F7426FB4BF4D4B /* Tor */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B724B96C2166476FBF446483 /* XCRemoteSwiftPackageReference "swift-tor" */;
+			package = D9F4134956144D71BBF30FE0 /* XCRemoteSwiftPackageReference "swift-tor" */;
 			productName = Tor;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C48789F82E514DFF9F177810 /* Project object */;
+	rootObject = 0B0691B564A547CCB30FFBBD /* Project object */;
 }
