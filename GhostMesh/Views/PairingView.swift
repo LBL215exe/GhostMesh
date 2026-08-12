@@ -120,10 +120,14 @@ final class ScannerViewController: UIViewController, AVCaptureMetadataOutputObje
     }
 
     nonisolated func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-    guard let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject,
-          let value = object.stringValue else { return }
-    Task { @MainActor in
-        self.session.stopRunning()
-        self.onCode?(value)
+        guard let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject,
+              let value = object.stringValue else { return }
+        // metadataOutput fires on a delegate queue; hop back to the main
+        // actor since ScannerViewController (a UIViewController subclass)
+        // and its properties are main-actor-isolated.
+        Task { @MainActor in
+            self.session.stopRunning()
+            self.onCode?(value)
+        }
     }
 }
