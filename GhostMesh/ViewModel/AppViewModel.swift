@@ -18,20 +18,30 @@ final class AppViewModel: ObservableObject {
     let calls: CallViewModel
 
     private let mesh: MeshTransport
-    private let tor = TorTransport()
+    private let tor: TorTransport
     private var router: MessageRouter!
 
     init() {
-        identity = Identity.generate()
-        persistHistoryLocally = UserDefaults.standard.bool(forKey: "gm_persist")
+        // Everything below is computed into local variables first — no
+        // `self.`/implicit-self reads are allowed until every non-defaulted
+        // stored property (identity, mesh, calls) has been assigned.
+        let generatedIdentity = Identity.generate()
         // Unspaced raw fingerprint — must match how Contact.id is derived
         // from a scanned PairingBundle, since mesh peer matching compares
         // these strings directly.
-        mesh = MeshTransport(displayName: identity.rawFingerprint.prefix(8).description)
-        let torTransport = tor
-        router = MessageRouter(mesh: mesh, tor: torTransport)
-        calls = CallViewModel(mesh: mesh, tor: torTransport)
+        let meshTransport = MeshTransport(displayName: generatedIdentity.rawFingerprint.prefix(8).description)
+        let torTransport = TorTransport()
+        let routerInstance = MessageRouter(mesh: meshTransport, tor: torTransport)
+        let callsInstance = CallViewModel(mesh: meshTransport, tor: torTransport)
 
+        identity = generatedIdentity
+        mesh = meshTransport
+        tor = torTransport
+        router = routerInstance
+        calls = callsInstance
+        persistHistoryLocally = UserDefaults.standard.bool(forKey: "gm_persist")
+
+        // self is fully initialized from here on — safe to reference it.
         mesh.onReceive = { [weak self] wire in
             Task { @MainActor in self?.handleIncoming(wire) }
         }
