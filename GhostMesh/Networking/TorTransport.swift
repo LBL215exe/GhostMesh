@@ -53,8 +53,10 @@ actor TorTransport {
         try await client.waitUntilBootstrapped()
         self.client = client
 
-        let endpoint = await client.socksEndpoint
-        self.socksPort = UInt16(endpoint.port ?? 0)
+        guard let endpoint = await client.socksEndpoint else {
+            throw TorTransportError.notStarted
+        }
+        self.socksPort = UInt16(endpoint.port)
     }
 
     /// Publishes an ephemeral v3 onion service that forwards to a local TCP
@@ -66,10 +68,13 @@ actor TorTransport {
         guard let client else { throw TorTransportError.notStarted }
         localInboxPort = UInt16.random(in: 40000...60000)
 
-        let key: OnionServiceKey = existingPrivateKey.map { .providedV3($0) } ?? .newV3(discardPrivateKey: false)
+        // No explicit type name here on purpose: the real enum type isn't
+        // publicly documented by name in swift-tor's (pre-1.0, unstable)
+        // API, so let the compiler infer it from addOnion's own parameter
+        // type instead of guessing wrong again.
         let service = try await client.control().addOnion(
-           key: key,
-           ports: [.toLocalPort(8443, localPort: Int(localInboxPort))]
+            key: existingPrivateKey.map { .providedV3($0) } ?? .newV3(discardPrivateKey: false),
+            ports: [.toLocalPort(8443, localPort: Int(localInboxPort))]
         )
         onionAddress = service.onionAddress
         startInboxListener(on: localInboxPort)
